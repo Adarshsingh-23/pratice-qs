@@ -1,0 +1,10 @@
+let favMovie ="memories";
+
+let guess = prompt("guess my fav Movie");
+
+
+while
+((guess!=favMovie) && (guess != "quit"))
+  {
+  guess = prompt("wrong guess try agian");
+}
