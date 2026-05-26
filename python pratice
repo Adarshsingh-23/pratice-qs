@@ -1,0 +1,15 @@
+marks =23
+
+if(marks >= 90):
+    print("You have an A grade.")
+elif(marks >= 80):
+    print("You have a B grade.")
+elif(marks >= 70 and marks< 80):
+    grade="c"
+elif(marks >= 60 and marks < 70):
+        print("You have a D grade.")
+elif(marks >= 50 and marks < 60):
+            print("You have an E grade.")
+
+else:
+    print("You need to improve.")
