@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+     int age;
+     float weight;
+
+     print("enter your age:");
+     scanf("%d",&age);
+
+     print("enter your weight:"):
+     scanf("%f",weight);
+
+     if(age>=18 && weight >=50)
+     print("you are eligible to donate blood")
+    else
+    print("you are not eligible to donate blood")
+
+    return 0;
+}
